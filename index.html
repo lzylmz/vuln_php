@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="utf-8">
+	
+	<title>Başvuru Formu</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+
+<body>
+<div class="container">
+	<div class="title" >Başvuru Formu</div>
+	<form action="#">
+		<div class="user-details">
+			<div class="input-box">
+				<span class="details">İsim </span>
+				<input type="text" placeholder="İsminizi Giriniz" required>
+				
+			</div>
+			
+			<div class="input-box">
+				<span class="details">Soy İsim</span>
+				<input type="text" placeholder="Soy İsminizi Giriniz" required>
+			</div>
+			<div class="input-box">
+				<span class="details">Telefon</span>
+				<input type="text" placeholder="Telefon Numaranızı Giriniz" required>
+			</div>
+			<div class="input-box">
+				<span class="details">Adres</span>
+				<input type="text" placeholder="Adresinizi Giriniz" required>
+			</div>
+			<div class="input-box">
+				<span class="details">Okul Adı</span>
+				<input type="text" placeholder="Okulunuzun Adını Giriniz" required>
+			</div>
+			<div class="input-box">
+				<span class="details">Proje</span>
+				<input type="text" placeholder="Projelerinizi Yazın" required>
+			</div>
+			<div class="input-box">
+				<span class="details">Fotoğraf</span>
+				<input type="file" placeholder="Fotoğrafınızı Yükleyin" accept="image/*" required>
+			</div>
+
+		</div>
+		<div class="button">
+			<input type="submit" value="Gönder">
+		</div>
+	</form>
+</div>
+		
+		
+		
+   
+	
+
+</body>
+</html>
+
+<?php
+include("baglanti.php");
+?>
