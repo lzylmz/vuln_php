@@ -1,1 +1,1 @@
-you can change databese setting and use for xss, sql and file upload vulnerability.
+you can change databese setting on baglanti.php and crud.php and use for xss, sql and file upload vulnerability.
